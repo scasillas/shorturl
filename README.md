@@ -10,12 +10,13 @@
 
 #### Creation Example:
 
-POST [project_url]/api/shorturl/new - body (urlencoded) :  url=https://www.google.com
+<code><a href="https://thirsty-macaw.glitch.me/https://www.google.ca" target="_blank">https://thirsty-macaw.glitch.me/https://www.google.ca</a></code>
 
 #### Usage:
 
-[this_project_url]/api/shorturl/3
+<code>{ "url": "https://thirsty-macaw.glitch.me/https://www.google.ca", "short-url": "https://thirsty-macaw.glitch.me/blahblah" }</code>
 
 #### Will redirect to:
 
-http://forum.freecodecamp.com# shorturl
+<code><a href="https://www.google.ca" target="_blank">https://www.google.ca</a></code>
+# shorturlapp
